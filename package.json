@@ -1,0 +1,24 @@
+{
+  "name": "mikelamontgomery",
+  "version": "1.0.0",
+  "description": "<h1> Gecko's In Missouri </h1>\r <h2> Geckos  <h2>\r <h3>[SuperGecko](https://kids.nationalgeographic.com/content/dam/kids/photos/animals/Reptiles/A-G/gecko-tree-closeup-colorful.adapt.945.1.jpg)<h3>\r <h1> Gecko<h1>\r <body> Geckos honestly are my favorite aminal. I dont know why but it just is. </body>\r <h1>ARE THEY DANGEROUS ???</h1>\r <h6><<body> Geckos are defintly not dangerous. Humans may be on the other hand but Geckos , NO WAY </body>,<h6>\r <h6>small <h6>\r test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mikela32/hello-world.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mikela32/hello-world/issues"
+  },
+  "homepage": "https://github.com/Mikela32/hello-world#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "parcel-bundler": "^1.12.3"
+  }
+}
