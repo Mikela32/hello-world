@@ -1,10 +1,60 @@
  h1 {
-    color: aquamarine;
-    font-family: fantasy;
+    color: rgb(187, 102, 173);
+    font-family: Impact;
+    font-size: 30;
+}
+img{
+width: 100%;
+display: block;
+margin: 0 auto;
+max-width: 500px;
+}
+
+.container{
+max-width: 900px;
+width: 100%;
+margin: 0 auto
 }
 
 .list { 
-color: aquamarine;
-font-family: fantasy;
+    background-color: yellow;
+    color: blueviolet;
+    font-size: 50px;
+}
+
+body {
+    background-color: blueviolet
+}
  
+#extra-hotpink {
+    background-color: blue
+
+}
+
+#navigation{
+    background-color: coral;
+    padding:30px;
+    border: solid purple;
+    margin: 30px
+}
+
+#header{
+    background-color: peachpuff;
+    padding:30px;
+    border:5px dashed hotpink;
+    margin: 30px;
+}
+
+#content{
+    background-color: plum;
+    border:dotted pink;
+    margin: 30px;
+    padding: 30px
+}
+
+#footer{
+    background-color: blueviolet;
+    border: groove plum;
+    margin:30px;
+    padding: 30px;
 }
