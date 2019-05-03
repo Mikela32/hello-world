@@ -1,67 +1,96 @@
- h1 {
-     color: rgb(187, 102, 173);
-     font-family: Impact;
-     font-size: 30;
- }
+body {
+    background-color: #8a2be2;
+    margin: 0;
+}
 
- img {
-     width: 100%;
-     display: block;
-     margin: 0 auto;
-     max-width: 500px;
- }
+.container {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto
+}
 
- #navigation li {
-     display: inline;
- }
+#content {
+    background-color: plum;
+    border: dotted pink;
+    margin: 30px;
+    padding: 30px
+}
 
- .container {
-     max-width: 900px;
-     width: 100%;
-     margin: 0 auto
- }
+#extra-hotpink {
+    background-color: blue
+}
 
- .list {
-     background-color: yellow;
-     color: blueviolet;
-     font-size: 50px;
- }
+h1 {
+    color: rgb(187, 102, 173);
+    font-family: Impact;
+    font-size: 30;
+}
 
- body {
-     background-color: #8a2be2;
-     margin: 0;
- }
+img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    max-width: 500px;
+}
 
- #extra-hotpink {
-     background-color: blue
- }
+.list {
+    background-color: yellow;
+    color: blueviolet;
+    font-size: 50px;
+}
 
- #navigation {
-     background-color: coral;
-     border: solid purple;
-     position: fixed;
-     width: 100%;
-     top: 0;
-     right: 0;
- }
+li:first-child {
+    background-color: yellow
+}
 
- #header {
-     background-color: peachpuff;
-     padding: 30px;
-     border: 5px dashed hotpink;
-     margin: 30px;
- }
+#navigation li {
+    display: inline;
+}
 
- #content {
-     background-color: plum;
-     border: dotted pink;
-     margin: 30px;
-     padding: 30px
- }
+#navigation li:nth-child(3) {
+    background-color: red;
+}
 
- #footer {
-     background-color: blueviolet;
-     border: groove plum;
-     margin: 30px;
-     padding: 30px;
- }
+#navigation:hover {
+    background-color: blue
+}
+
+#navigation a:hover+ul,
+#navigation a + ul:hover {
+    display: block
+}
+
+#navigation {
+    background-color: coral;
+    border: solid purple;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+}
+
+#navigation ul ul {
+    display: none;
+    position: absolute;
+    right: 0;
+}
+
+#navigation a+ul:hoover {}
+
+#navigation li {
+    position: relative
+}
+
+#header {
+    background-color: peachpuff;
+    padding: 30px;
+    border: 5px dashed hotpink;
+    margin: 30px;
+}
+
+#footer {
+    background-color: blueviolet;
+    border: groove plum;
+    margin: 30px;
+    padding: 30px;
+}
