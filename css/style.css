@@ -10,11 +10,12 @@ body {
 }
 
 #content {
-    background-color: plum;
+    background-color: red;
     border: dotted pink;
     margin: 30px;
     padding: 30px
 }
+
 
 #extra-hotpink {
     background-color: blue
@@ -75,7 +76,6 @@ li:first-child {
     right: 0;
 }
 
-#navigation a+ul:hoover {}
 
 #navigation li {
     position: relative
@@ -93,4 +93,9 @@ li:first-child {
     border: groove plum;
     margin: 30px;
     padding: 30px;
+}
+
+#terry{
+
+    background-color: orangered;
 }
