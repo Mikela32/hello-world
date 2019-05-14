@@ -132,7 +132,7 @@ align-items: flex-start;
     flex-direction: row
 }
 
-@media (min-width: 900px) {
+/*@media (min-width: 900px) {
     body {
       grid-template-areas: "navigation header"
                            "navigation content"
@@ -141,3 +141,4 @@ align-items: flex-start;
       grid-template-rows: min-content 1fr min-content;
     }
   }
+  */
